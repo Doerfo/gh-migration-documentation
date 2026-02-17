@@ -47,6 +47,7 @@ This site is structured into the following sections:
 |---|---|
 | **[Architecture](docs/architecture/)** | Overview of the source system (Azure DevOps) and the target architecture on GitHub |
 | **[GitHub Configuration](docs/github-configuration/)** | Step-by-step configuration guides for the GitHub Enterprise, Entra ID integration, and Advanced Security |
+| **[Resources](docs/migration-resources/)** | Curated documentation links and resources for migration tools, identity management, and GitHub Enterprise Cloud administration |
 
 Each section contains sub-pages with detailed instructions, prerequisites, and validation checklists.
 
