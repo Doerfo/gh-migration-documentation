@@ -23,15 +23,30 @@ Replace the following placeholders throughout the documentation before publishin
 | `<RESPONSIBLE_TEAM>` | Team / group responsible for the migration | Platform Engineering |
 | `<MIGRATION_LEAD>` | Name or alias of the migration lead | `jdoe@contoso.com` |
 
-## Documentation structure
+## Documentation Structure
 
-| Page | Topic |
-|---|---|
-| `index.md` | User Synchronisation – Entra ID to GitHub (SCIM / OIDC) |
-| *(future)* | Repository migration |
-| *(future)* | Pipeline / Actions migration |
-| *(future)* | Work‑item / project migration |
-| *(future)* | Post‑migration validation |
+```
+index.md                                    ← Introduction & project motivation
+docs/
+├── architecture/
+│   ├── index.md                            ← Architecture overview
+│   ├── source-system.md                    ← Source System (Azure DevOps)
+│   └── target-architecture.md              ← Target Architecture (GitHub Enterprise Cloud)
+└── github-configuration/
+    ├── index.md                            ← GitHub Configuration overview
+    ├── general.md                          ← General enterprise & org settings
+    ├── entra-id-integration.md             ← Entra ID integration (OIDC + SCIM)
+    └── advanced-security.md                ← GitHub Advanced Security (GHAS)
+```
+
+| Section | Page | Topic |
+|---|---|---|
+| Introduction | `index.md` | Project motivation, scope, key contacts |
+| Architecture | `source-system.md` | Current Azure DevOps environment |
+| Architecture | `target-architecture.md` | Planned GitHub Enterprise Cloud setup |
+| GitHub Configuration | `general.md` | Enterprise policies, org settings, Actions config |
+| GitHub Configuration | `entra-id-integration.md` | OIDC SSO & SCIM user provisioning |
+| GitHub Configuration | `advanced-security.md` | Code scanning, secret scanning, dependency review |
 
 ## Building and previewing locally
 
