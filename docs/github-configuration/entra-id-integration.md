@@ -93,7 +93,7 @@ After OIDC SSO is enabled, **SCIM** (System for Cross-domain Identity Management
 3. Set *Provisioning Mode* to **Automatic**.
 4. In the *Admin Credentials* section, enter:
    - **Tenant URL:** `https://api.github.com/scim/v2/enterprises/<ENTERPRISE_SLUG>`
-   - **Secret Token:** Generate a **Personal Access Token (classic)** from the `<SETUP_USER>` account with the `admin:enterprise` scope, or use the token provided during OIDC setup.
+   - **Secret Token:** A **Personal Access Token (classic)** from the `<SETUP_USER>` account with the `admin:enterprise` scope. This token should have been created during the initial EMU setup. If you need to create a new token, see [Managing your personal access tokens](https://docs.github.com/en/enterprise-cloud@latest/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 5. Click **Test Connection** to verify.
 6. Configure **Mappings** (user attributes and group mappings) per the [Microsoft tutorial](https://learn.microsoft.com/en-us/entra/identity/saas-apps/github-enterprise-managed-user-oidc-provisioning-tutorial).
 7. Set the **Scope** to *Sync only assigned users and groups* (recommended).

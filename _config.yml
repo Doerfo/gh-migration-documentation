@@ -6,3 +6,11 @@ url: <GITHUB_PAGES_URL>
 
 aux_links:
   Migration Repository: <MIGRATION_REPO_URL>
+
+# Front matter defaults
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
