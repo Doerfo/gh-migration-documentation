@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Azure DevOps to GitHub Migration – <CUSTOMER>
+description: Migration documentation for <CUSTOMER> – Azure DevOps to GitHub Enterprise Cloud
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: <GITHUB_PAGES_URL>
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Migration Repository: <MIGRATION_REPO_URL>
